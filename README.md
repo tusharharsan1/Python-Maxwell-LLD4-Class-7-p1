@@ -77,7 +77,7 @@ To achieve these requirements we need to do 2 things:
    ```
    If you see `not done yet`, a task is not finished (a field is missing, or `order_total` still has its `raise` line).
 7. Your code will be checked with the test file `tests/test_order_lines.py`. It checks the cases in the Requirements above, and the rules in instructions 3, 4 and 5. While you write your code, use `python try_it.py` (instruction 6) to check your work.
-8. You do not need MySQL, a server, an internet connection or a key for this assignment. The model only **describes** the table, and nothing is ever created in a database. `sqlalchemy` is already installed (`pip install "sqlalchemy[asyncio]" asyncmy alembic` in Class 7). Use Python 3.
+8. You do not need MySQL, a server, an internet connection or a key for this assignment. The model only **describes** the table, and nothing is ever created in a database. `sqlalchemy` is already installed (`pip install "sqlalchemy[asyncio]" asyncmy alembic` in Class 7). It works with Python 3.8 or newer.
 9. Hints (all of these use ideas from class):
    - **The four fields (TODO 1 to TODO 4).** The first three are almost the same as lines you already know from `Product`:
      ```python
